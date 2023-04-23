@@ -1,1 +1,3 @@
-# levenstheindistance
+# Levenstheindistance
+Basically, levensthein distance is a cost, that we need to make to change one word to another. For example, if we assume that changing a letter to another costs 1 point, changing 'cat', to 'car' costs 1 point, and 'ball' to 'well' costs 2 points. We can also delete, or add letters, and give these operations same, or different cost in points. 
+This program takes some inputted file with text in english, takes one word after another, and for each word, finds the cheapest word in the second file that can be swapped (autocorrect works very similarly). If even the cheapest word is more expensive than we stated, previous word stays the same (if the word is already in the second file, cost = 0). In the program, there are written some often made combinations of errors that people make, while writing on a keyboard, but this is open to change.
